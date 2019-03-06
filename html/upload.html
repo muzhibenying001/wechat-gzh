@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="../static/layui/css/layui.css">
+<script type="text/javascript" src="../static/js/jquery.min.js"></script>
+<script type="text/javascript" src="../static/layui/layui.js"></script>
+</head>
+<body>
+  <div class="layui-container"> 
+    <div class="layui-row" style="margin-top: 100px; ">
+        <h2>素材上传</h2>
+  </div>
+  <hr>
+<form class="layui-form" action="">
+  
+  <div class="layui-form-item">
+    <label class="layui-form-label">上传</label>
+    <div class="layui-input-block">
+      <button type="button" class="layui-btn" id="test1">
+  <i class="layui-icon">&#xe67c;</i>上传素材图片
+  </button>
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">存储方式</label>
+    <div class="layui-input-block">
+      <input type="radio" name="up_method" value="0" title="临时" checked>
+      <input type="radio" name="up_method" value="1" title="永久">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">上传类型</label>
+    <div class="layui-input-block">
+      <select name="up_type" lay-verify="required">
+        <option value="">请选择想要上传的类型</option>
+        <option value="image">图片</option>
+        <option value="voice">语音</option>
+        <option value="video">视频</option>
+        <option value="thumb">缩略图</option>
+      </select>
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">图片预览</label>
+    <div class="layui-input-block" style="background: #eee;" id="lookup">
+
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <div class="layui-input-block">
+      <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+      <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+    </div>
+  </div>
+</form>
+</div>
+</body>
+<script>
+//Demo
+layui.use('form', function(){
+  var form = layui.form;
+  
+  //监听提交
+  form.on('submit(formDemo)', function(data){
+    layer.msg(JSON.stringify(data.field));
+    return false;
+  });
+
+  layui.use('upload', function(){
+  var upload = layui.upload;
+   
+  //执行实例
+  var uploadInst = upload.render({
+    elem: '#test1', //绑定元素
+    url: '../WechatInitiative/upload.php', //上传接口
+    auto: true,
+    data: {
+      'up_method': function(){
+        return $(":radio:checked").val();
+      },
+      'up_type'  : function(){
+        return $(":checkbox:selected").val();
+      }
+    },
+    before: function(obj){ //obj参数包含的信息，跟 choose回调完全一致，可参见上文。
+      console.log(this.data);
+    },
+    done: function(res){
+      $('#lookup').css('background','#9384af');
+    },
+    error: function(){
+      //请求异常回调
+    }
+  });
+});
+});
+</script>

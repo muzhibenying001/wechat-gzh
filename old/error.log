@@ -1,0 +1,17 @@
+[03-Mar-2019 10:30:06 prc] PHP Notice:  Undefined index: signature in E:\project\www.wx.com\info.php on line 5
+[03-Mar-2019 10:30:06 prc] PHP Notice:  Undefined index: timestamp in E:\project\www.wx.com\info.php on line 6
+[03-Mar-2019 10:30:06 prc] PHP Notice:  Undefined index: nonce in E:\project\www.wx.com\info.php on line 7
+[03-Mar-2019 10:30:06 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 8
+[03-Mar-2019 10:49:21 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 26
+[03-Mar-2019 10:49:21 prc] PHP Warning:  include(config.php): failed to open stream: No such file or directory in E:\project\www.wx.com\info.php on line 35
+[03-Mar-2019 10:49:21 prc] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.;C:\php\pear') in E:\project\www.wx.com\info.php on line 35
+[03-Mar-2019 10:50:04 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 26
+[03-Mar-2019 10:50:23 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 26
+[03-Mar-2019 11:12:42 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 26
+[03-Mar-2019 11:14:29 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 26
+[03-Mar-2019 11:20:41 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 26
+[03-Mar-2019 11:20:41 prc] PHP Parse error:  syntax error, unexpected '=', expecting ']' in E:\project\www.wx.com\config.php on line 13
+[03-Mar-2019 11:21:11 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 26
+[03-Mar-2019 11:21:11 prc] PHP Warning:  sprintf(): Too few arguments in E:\project\www.wx.com\info.php on line 99
+[03-Mar-2019 11:22:42 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 26
+[04-Mar-2019 16:09:50 prc] PHP Notice:  Undefined index: echostr in E:\project\www.wx.com\info.php on line 26

@@ -1,0 +1,166 @@
+[05-Mar-2019 00:43:48 prc] PHP Warning:  include(./WechatInitiative/config.php): failed to open stream: No such file or directory in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 26
+[05-Mar-2019 00:43:48 prc] PHP Warning:  include(): Failed opening './WechatInitiative/config.php' for inclusion (include_path='.;C:\php\pear') in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 26
+[05-Mar-2019 00:43:48 prc] PHP Fatal error:  Uncaught Error: Class 'WechatInitiative\Memcache' not found in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php:151
+Stack trace:
+#0 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(84): WechatInitiative\WechatInitiative->mem()
+#1 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(48): WechatInitiative\WechatInitiative->getAccessToken()
+#2 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(8): WechatInitiative\WechatInitiative->createMenu()
+#3 {main}
+  thrown in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 151
+[05-Mar-2019 00:44:26 prc] PHP Warning:  include(./WechatInitiative/config.php): failed to open stream: No such file or directory in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 26
+[05-Mar-2019 00:44:26 prc] PHP Warning:  include(): Failed opening './WechatInitiative/config.php' for inclusion (include_path='.;C:\php\pear') in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 26
+[05-Mar-2019 00:44:26 prc] PHP Fatal error:  Uncaught Error: Class 'WechatInitiative\Memcache' not found in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php:151
+Stack trace:
+#0 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(84): WechatInitiative\WechatInitiative->mem()
+#1 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(48): WechatInitiative\WechatInitiative->getAccessToken()
+#2 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(8): WechatInitiative\WechatInitiative->createMenu()
+#3 {main}
+  thrown in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 151
+[05-Mar-2019 00:44:41 prc] PHP Fatal error:  Uncaught Error: Class 'WechatInitiative\Memcache' not found in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php:151
+Stack trace:
+#0 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(84): WechatInitiative\WechatInitiative->mem()
+#1 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(48): WechatInitiative\WechatInitiative->getAccessToken()
+#2 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(8): WechatInitiative\WechatInitiative->createMenu()
+#3 {main}
+  thrown in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 151
+[05-Mar-2019 00:46:14 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 94
+[05-Mar-2019 00:46:14 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 96
+[05-Mar-2019 00:46:35 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 95
+[05-Mar-2019 00:46:35 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 97
+[05-Mar-2019 00:47:47 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 96
+[05-Mar-2019 00:47:47 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 98
+[05-Mar-2019 00:49:07 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 96
+[05-Mar-2019 00:49:07 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 98
+[05-Mar-2019 00:50:48 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 97
+[05-Mar-2019 00:50:48 prc] PHP Notice:  Undefined index: access_token in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 99
+[05-Mar-2019 23:32:55 prc] PHP Fatal error:  Uncaught Error: Call to undefined function WechatInitiative\string() in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php:64
+Stack trace:
+#0 E:\project\www.wx.com\WechatInitiative\WechatInitiative.php(8): WechatInitiative\WechatInitiative->createMenu()
+#1 {main}
+  thrown in E:\project\www.wx.com\WechatInitiative\WechatInitiative.php on line 64
+[06-Mar-2019 00:08:03 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1192
+[06-Mar-2019 00:08:43 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1187
+[06-Mar-2019 00:11:20 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1150
+[06-Mar-2019 00:12:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1150
+[06-Mar-2019 00:12:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1152
+[06-Mar-2019 00:12:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1159
+[06-Mar-2019 00:12:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1169
+[06-Mar-2019 00:14:18 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:14:18 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1150
+[06-Mar-2019 00:14:18 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1152
+[06-Mar-2019 00:14:18 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1154
+[06-Mar-2019 00:14:18 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1161
+[06-Mar-2019 00:14:18 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1171
+[06-Mar-2019 00:16:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1145
+[06-Mar-2019 00:16:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1148
+[06-Mar-2019 00:16:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1150
+[06-Mar-2019 00:16:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1152
+[06-Mar-2019 00:16:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1159
+[06-Mar-2019 00:16:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1169
+[06-Mar-2019 00:18:21 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:18:21 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1146
+[06-Mar-2019 00:18:21 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1148
+[06-Mar-2019 00:18:21 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1150
+[06-Mar-2019 00:18:21 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1157
+[06-Mar-2019 00:18:21 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1167
+[06-Mar-2019 00:18:21 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1248
+[06-Mar-2019 00:22:20 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:22:20 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1146
+[06-Mar-2019 00:22:20 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1148
+[06-Mar-2019 00:22:20 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1150
+[06-Mar-2019 00:22:20 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1157
+[06-Mar-2019 00:22:20 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1167
+[06-Mar-2019 00:22:20 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1248
+[06-Mar-2019 00:22:43 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:22:43 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1146
+[06-Mar-2019 00:22:43 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1148
+[06-Mar-2019 00:22:43 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1150
+[06-Mar-2019 00:22:43 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1157
+[06-Mar-2019 00:22:43 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1167
+[06-Mar-2019 00:22:43 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1248
+[06-Mar-2019 00:23:45 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:23:45 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1146
+[06-Mar-2019 00:23:45 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1148
+[06-Mar-2019 00:23:45 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1150
+[06-Mar-2019 00:23:45 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1157
+[06-Mar-2019 00:23:45 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1167
+[06-Mar-2019 00:23:45 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1248
+[06-Mar-2019 00:25:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:25:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:25:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:25:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1151
+[06-Mar-2019 00:25:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1158
+[06-Mar-2019 00:25:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1168
+[06-Mar-2019 00:25:51 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1249
+[06-Mar-2019 00:27:14 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:27:14 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:27:14 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:27:14 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1151
+[06-Mar-2019 00:27:14 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1158
+[06-Mar-2019 00:27:14 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1168
+[06-Mar-2019 00:27:14 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1249
+[06-Mar-2019 00:28:04 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:28:04 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:28:04 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:28:04 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:28:04 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:28:04 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:28:29 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:28:29 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:28:29 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:28:29 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:28:29 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:28:29 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:28:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:28:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:28:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:28:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:28:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:28:40 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:28:59 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:28:59 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:28:59 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:28:59 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:28:59 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:28:59 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:29:27 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:29:27 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:29:27 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:29:27 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:29:27 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:29:27 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:30:10 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:30:10 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:30:10 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:30:10 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:30:10 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:30:10 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:31:12 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:31:12 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:31:12 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:31:12 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:31:12 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:31:12 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:31:41 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:31:41 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:31:41 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:31:41 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:31:41 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:31:41 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:32:22 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:32:22 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:32:22 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:32:22 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:32:22 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:32:22 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:32:35 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:32:35 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1147
+[06-Mar-2019 00:32:35 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:32:35 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:32:35 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:32:35 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
+[06-Mar-2019 00:33:25 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1143
+[06-Mar-2019 00:33:25 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1149
+[06-Mar-2019 00:33:25 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1156
+[06-Mar-2019 00:33:25 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1166
+[06-Mar-2019 00:33:25 prc] PHP Notice:  Undefined variable: _SESSION in E:\project\www.wx.com\WechatInitiative\jd.php on line 1247
